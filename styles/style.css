@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* Shared styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1f1f1f;
+  width: 1060px;
+  margin: 0 auto;
+}
+.primary-color {
+  color: #e6533c;
+}
+
+/* Navbar related style start here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 58px;
+}
+.brand-name {
+  font-weight: 800;
+  color: #e6533c;
+  font-style: italic;
+  font-size: 2.25rem;
+}
+.menu-items {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.088);
+  border-radius: 40px;
+}
+.menu-items a {
+  text-decoration: none;
+  color: white;
+}
+.menu-item {
+  list-style: none;
+  padding: 8px 20px;
+  font-size: 1.12rem;
+  margin-right: 30px;
+}
+.home-menu {
+  background-color: #e6533c;
+  border-radius: 40px;
+}
+
+/* Navbar related style ends here */
+
+/* Responsive Related Styles Here */
+
+@media screen and (max-width: 576px) {
+}
