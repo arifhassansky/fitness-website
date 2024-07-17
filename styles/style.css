@@ -9,7 +9,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  background-color: #1f1f1f;
+  background-color: rgba(0, 0, 0, 0.971);
   width: 1060px;
   margin: 0 auto;
   color: white;
@@ -42,7 +42,7 @@ body {
 }
 .menu-items {
   display: flex;
-  border: 1px solid rgba(255, 255, 255, 0.088);
+  border: 1px solid rgba(255, 255, 255, 0.164);
   border-radius: 40px;
 }
 .menu-items a {
@@ -51,6 +51,7 @@ body {
 }
 .menu-item {
   list-style: none;
+  margin: 3px;
   padding: 8px 20px;
   font-size: 1.12rem;
   margin-right: 30px;
@@ -88,6 +89,7 @@ body {
   font-weight: 900;
 }
 .healthy-subtitle {
+  max-width: 500px;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 28px;
   margin-bottom: 28px;
@@ -120,7 +122,7 @@ body {
   border-radius: 12px;
 }
 .banner-box-title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 .banner-box {
@@ -131,7 +133,7 @@ body {
 }
 .banner-container {
   position: absolute;
-  top: 415px;
+  top: 425px;
   left: -113px;
 }
 .banner-box-2 {
@@ -144,23 +146,159 @@ body {
 }
 .banner-container-2 {
   position: absolute;
-  top: 130px;
-  left: 220px;
+  top: 132px;
+  left: 225px;
 }
 
 /* Banner related styles end */
 
+/* Habit section related styles start */
+
+.habit {
+  margin-top: 100px;
+}
+.habit-top {
+  text-align: center;
+}
+.habit-top-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.habit-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.88rem;
+  margin-bottom: 58px;
+  line-height: 24px;
+}
+.habit-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+.habit-item img {
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+.habit-title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* Habit section related styles end */
+
+/* Run section related styles start */
+.run {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.run-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 54px;
+}
+.run-title {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.run-description {
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 443px;
+  font-size: 0.88rem;
+  margin-bottom: 34px;
+}
+.run-content,
+.run-image {
+  max-width: 48%;
+}
+.run-image img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* Run section related styles end */
+
+/* BMI section related style start */
+
+.bmi-top {
+  text-align: center;
+}
+.bmi-top-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.bmi-top-description {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 355px;
+  line-height: 24px;
+  text-align: left;
+}
+.bmi-chart-title {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+.bmi-wrapper {
+  margin-top: 140px;
+  background: rgb(34, 34, 34);
+}
+.bmi-data-container {
+  padding: 52px 189px;
+}
+.table {
+  border-collapse: collapse;
+  margin-top: 42px;
+}
+.bmi-chart {
+  margin-left: 189px;
+}
+th,
+td {
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  padding: 15px;
+}
+td {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* BMI section related style end */
+
 /* Responsive Related Styles Here */
 
 @media screen and (max-width: 576px) {
+  body {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .brand-name {
+    font-size: 7.25rem;
+  }
+  .hamburger > i {
+    font-size: 4.25rem;
+  }
   .menu-items {
     display: none;
   }
-  .brand-name {
-    margin-left: 20px;
-  }
   .hamburger {
     display: block;
-    margin-right: 24px;
+  }
+  .healthy-container {
+    flex-direction: column;
+    align-items: start;
+  }
+  .healthy-content,
+  .banner-image {
+    max-width: 100%;
+  }
+  .healthy-title {
+    font-size: 120px;
   }
 }
