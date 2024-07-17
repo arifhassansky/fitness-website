@@ -49,10 +49,26 @@ body {
   background-color: #e6533c;
   border-radius: 40px;
 }
+.hamburger i {
+  color: white;
+}
+.hide {
+  display: none;
+}
 
 /* Navbar related style ends here */
 
 /* Responsive Related Styles Here */
 
 @media screen and (max-width: 576px) {
+  .menu-items {
+    display: none;
+  }
+  .brand-name {
+    margin-left: 20px;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 24px;
+  }
 }
