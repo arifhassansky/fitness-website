@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
     <script
       src="https://kit.fontawesome.com/b7f3b95caa.js"
       crossorigin="anonymous"
@@ -41,8 +42,10 @@
               A huge selection of health and fitness content, healthy recipes
               and transformation stories to help you get fit and stay fit!
             </p>
-            <button class="primary-btn">Join Club Now!</button>
-            <button class="banner-download-btn">Download App</button>
+            <div class="banner-btn-container">
+              <button class="primary-btn">Join Club Now!</button>
+              <button class="banner-download-btn">Download App</button>
+            </div>
           </div>
           <div class="banner-image">
             <img
@@ -132,7 +135,9 @@
               regardless of income or access to a gym. With hundreds of
               professional workouts.
             </p>
-            <button class="primary-btn">Join Now</button>
+            <div class="run-btn-container">
+              <button class="primary-btn run-btn">Join Now</button>
+            </div>
           </div>
           <div class="run-image">
             <img src="images/run.jpg" alt="A man running" />
@@ -144,7 +149,7 @@
 
       <!-- BMI section start here -->
 
-      <section class="bmi">
+      <section class="bmi hide">
         <div class="bmi-top">
           <h1 class="bmi-top-title">BMI Calculator</h1>
           <p class="bmi-top-description">
@@ -225,43 +230,55 @@
           </p>
         </div>
         <div class="team-images">
-          <div class="team-image">
-            <img src="images/trainer1.png" alt="" />
+          <div class="team-card">
+            <div class="team-image">
+              <img src="images/trainer1.png" alt="" />
+            </div>
             <div class="team-image-content">
               <h3 class="team-image-name">Jerome Bell</h3>
               <h6 class="team-image-title">Trainer</h6>
             </div>
           </div>
-          <div class="team-image">
-            <img src="images/trainer2.png" alt="" />
+          <div class="team-card">
+            <div class="team-image">
+              <img src="images/trainer2.png" alt="" />
+            </div>
             <div class="team-image-content">
               <h3 class="team-image-name">Cameron Willi</h3>
               <h6 class="team-image-title">Trainer</h6>
             </div>
           </div>
-          <div class="team-image">
-            <img src="images/trainer3.png" alt="" />
+          <div class="team-card">
+            <div class="team-image">
+              <img src="images/trainer3.png" alt="" />
+            </div>
             <div class="team-image-content">
               <h3 class="team-image-name">Darrel Steward</h3>
               <h6 class="team-image-title">Trainer</h6>
             </div>
           </div>
-          <div class="team-image">
-            <img src="images/trainer4.png" alt="" />
+          <div class="team-card">
+            <div class="team-image">
+              <img src="images/trainer4.png" alt="" />
+            </div>
             <div class="team-image-content">
               <h3 class="team-image-name">Dianne Russell</h3>
               <h6 class="team-image-title">Trainer</h6>
             </div>
           </div>
-          <div class="team-image">
-            <img src="images/trainer5.png" alt="" />
+          <div class="team-card">
+            <div class="team-image">
+              <img src="images/trainer5.png" alt="" />
+            </div>
             <div class="team-image-content">
               <h3 class="team-image-name">Cody Fisher</h3>
               <h6 class="team-image-title">Trainer</h6>
             </div>
           </div>
-          <div class="team-image">
-            <img src="images/trainer6.png" alt="" />
+          <div class="team-card">
+            <div class="team-image">
+              <img src="images/trainer6.png" alt="" />
+            </div>
             <div class="team-image-content">
               <h3 class="team-image-name">Theressa Webb</h3>
               <h6 class="team-image-title">Trainer</h6>
@@ -272,6 +289,39 @@
 
       <!-- Meet section end here -->
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-container">
+          <div class="fitness">
+            <h1 class="footer-brand">Fitness</h1>
+            <p class="footer-description">
+              We believe fitness should be accessible to everyone,<br />
+              everywhere, regardless of income or access to a gym. With <br />
+              hundreds of professional workouts.
+            </p>
+          </div>
+          <div class="service">
+            <ul class="list-items">
+              <h2 class="list-title">Get Started</h2>
+              <a href=""><li>Service</li></a>
+              <a href=""><li>Contact Us</li></a>
+              <a href=""><li>Affiliate Program</li></a>
+              <a href=""><li>About Us</li></a>
+            </ul>
+          </div>
+          <div class="fitness">
+            <ul class="list-items">
+              <h2>Get Started</h2>
+              <a href=""><li>Fitness</li></a>
+              <a href=""><li>Platform</li></a>
+              <a href=""><li>Workout Library</li></a>
+              <a href=""><li>App Design</li></a>
+            </ul>
+          </div>
+        </div>
+        <div class="hr-line"></div>
+        <p class="copyright">All right reserved @Fitness 2024</p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -107,8 +107,8 @@ header {
   cursor: pointer;
 }
 .banner-box-circle {
-  max-width: 40px;
-  max-height: 40px;
+  width: 40px;
+  height: 40px;
   background: rgb(230, 83, 60);
   border-radius: 100%;
 }
@@ -131,15 +131,16 @@ header {
   padding: 20px 23px;
 }
 .banner-box-subtitle {
+  font-size: 13px;
   color: rgba(239, 237, 232, 0.65);
 }
 .banner-container {
   position: absolute;
-  top: 425px;
-  left: -113px;
+  top: 430px;
+  left: -81px;
 }
 .banner-box-2 {
-  max-width: 206px;
+  width: 180px;
   padding: 20px 23px;
   backdrop-filter: blur(5px);
   background: rgba(48, 48, 48, 0.54);
@@ -228,7 +229,9 @@ header {
   border-radius: 18px;
   object-fit: cover;
 }
-
+.run-btn-container {
+  text-align: left;
+}
 /* Run section related styles end */
 
 /* BMI section related style start */
@@ -324,7 +327,7 @@ select {
 /* Team section related styles start */
 
 .team {
-  width: 1060px;
+  max-width: 1060px;
   margin: 0 auto;
   margin-top: 88px;
 }
@@ -349,8 +352,10 @@ select {
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
 }
-.team-image {
+.team-card {
   position: relative;
+}
+.team-image {
   width: 326px;
   height: 272px;
 }
@@ -376,34 +381,59 @@ select {
 
 /* Team section related styles end */
 
-/* Responsive Related Styles Here */
+/* Footer related style start here */
 
-@media screen and (max-width: 576px) {
-  body {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .brand-name {
-    font-size: 7.25rem;
-  }
-  .hamburger > i {
-    font-size: 4.25rem;
-  }
-  .menu-items {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
-  .healthy-container {
-    flex-direction: column;
-    align-items: start;
-  }
-  .healthy-content,
-  .banner-image {
-    max-width: 100%;
-  }
-  .healthy-title {
-    font-size: 120px;
-  }
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 88px;
 }
+.footer-wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-top: 66px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-brand {
+  font-size: 4.25rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 300;
+  font-size: 0.88rem;
+  line-height: 24px;
+}
+.list-items h2 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 39px;
+}
+.list-items a {
+  text-decoration: none;
+}
+.list-items li {
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+
+.hr-line {
+  margin-top: 79px;
+  margin-bottom: 36px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  padding-bottom: 35px;
+}
+
+/* Footer related style end here */
+
+/* Responsive Related Styles Here */

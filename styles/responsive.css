@@ -1,0 +1,54 @@
+@media screen and (max-width: 576px) {
+  .menu-items {
+    display: none;
+  }
+  section,
+  header,
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .banner-btn-container {
+    display: flex;
+  }
+  .banner-container {
+    top: 250px;
+    left: -15px;
+  }
+  .banner-container-2 {
+    top: 45px;
+    left: 183px;
+  }
+  .footer-container,
+  .run-container,
+  .healthy-container {
+    flex-direction: column;
+  }
+  .team-images,
+  .habit-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .list-title {
+    margin-top: 30px;
+  }
+  .copyright {
+    text-align: left;
+  }
+  .run-container {
+    padding: 0px;
+  }
+  .run-content,
+  .run-image,
+  .run-btn-container,
+  .healthy-content,
+  .banner-image {
+    max-width: 100%;
+  }
+  .run-btn-container {
+    text-align: center;
+    margin-bottom: 31px;
+  }
+}
