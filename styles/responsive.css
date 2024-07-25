@@ -28,6 +28,9 @@
   .bmi-data-container {
     flex-direction: column;
   }
+  .healthy-title {
+    font-size: 54px;
+  }
   .team-images,
   .habit-items {
     grid-template-columns: repeat(1, 1fr);
