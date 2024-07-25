@@ -149,7 +149,7 @@
 
       <!-- BMI section start here -->
 
-      <section class="bmi hide">
+      <section class="bmi">
         <div class="bmi-top">
           <h1 class="bmi-top-title">BMI Calculator</h1>
           <p class="bmi-top-description">
@@ -195,15 +195,25 @@
                   </p>
                 </div>
                 <div class="input-wrapper">
-                  <input type="text" placeholder="Height/cm" />
-                  <input type="text" placeholder="Weight/kg" />
-                  <input type="text" placeholder="Age" />
-                  <select name="">
-                    <option value="">Sex</option>
-                    <option value="">Male</option>
-                    <option value="">Female</option>
-                  </select>
-                  <select id="bmi-activity" name="">
+                  <div>
+                    <input type="text" placeholder="Height/cm" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Weight/kg" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Age" />
+                  </div>
+                  <div class="gender">
+                    <select name="">
+                      <option value="">Sex</option>
+                      <option value="">Male</option>
+                      <option value="">Female</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="bmi-activity">
+                  <select id="" name="">
                     <option value="">Select an activity factor</option>
                     <option value="">Walk</option>
                     <option value="">Run</option>
