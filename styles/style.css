@@ -237,6 +237,10 @@ header {
 /* Package related styles start here */
 
 .package {
+  background: rgb(34, 34, 34);
+}
+.package-wrapper {
+  padding: 60px 0 60px 0;
   max-width: 1060px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -249,6 +253,7 @@ header {
 .package-card {
   border: 1px solid #dddddd84;
   border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #665757 inset;
 }
 
 .package-card img {
@@ -257,7 +262,8 @@ header {
   border-top-right-radius: 8px;
 }
 .package-card hr {
-  margin-top: 30px;
+  margin-top: 20px;
+  opacity: 0.6;
 }
 .package-content {
   margin-left: 15px;
@@ -268,18 +274,21 @@ header {
   font-size: 40px;
 }
 .package-title {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
+  opacity: 0.9;
 }
 .package-subtitle {
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-style: italic;
+  opacity: 0.9;
 }
 .package-list li {
   list-style: circle;
   line-height: 40px;
   margin-left: 15px;
+  opacity: 0.7;
 }
 .card-bottom-container {
   display: flex;
