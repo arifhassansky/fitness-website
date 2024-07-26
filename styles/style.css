@@ -304,6 +304,164 @@ header {
 
 /* Package related styles end here */
 
+/* Training related styles start here */
+
+.training {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.training-top-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.training-top-description {
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+.training-image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.training-image-container img {
+  object-fit: cover;
+}
+.image-item1 {
+  position: relative;
+  max-width: 250px;
+  max-height: 201px;
+}
+.image-item1 img {
+  width: 100%;
+  height: 100%;
+}
+.image-item1 h5 {
+  position: absolute;
+  top: 141px;
+  left: 40px;
+  color: black;
+}
+.image-item1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 255, 210, 0.5);
+}
+.image-item2 {
+  position: relative;
+  max-width: 520px;
+  max-height: 201px;
+}
+.image-item2 img {
+  width: 100%;
+  height: 100%;
+}
+.image-item2 h5 {
+  position: absolute;
+  top: 25px;
+  left: 31px;
+  color: white;
+}
+.image-item2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+.image-item3 {
+  position: relative;
+  max-width: 290px;
+  max-height: 201px;
+}
+.image-item3 img {
+  width: 100%;
+  height: 100%;
+}
+.image-item3 h5 {
+  position: absolute;
+  top: 146px;
+  left: 27px;
+  color: white;
+}
+.image-item3::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.image-item4 {
+  position: relative;
+  max-width: 425px;
+  max-height: 201px;
+}
+.image-item4 img {
+  width: 100%;
+  height: 100%;
+}
+.image-item4 h5 {
+  position: absolute;
+  top: 25px;
+  left: 250px;
+  color: white;
+}
+.image-item4::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.image-item5 {
+  position: relative;
+  max-width: 288px;
+  max-height: 201px;
+}
+.image-item5 img {
+  width: 100%;
+  height: 100%;
+}
+.image-item5 h5 {
+  position: absolute;
+  top: 144px;
+  left: 34px;
+  color: white;
+}
+.image-item5::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(66, 255, 0, 0.3);
+}
+.image-item6 {
+  position: relative;
+  max-width: 347px;
+  max-height: 201px;
+}
+.image-item6 img {
+  width: 100%;
+  height: 100%;
+}
+.image-item6 h5 {
+  position: absolute;
+  top: 142px;
+  left: 38px;
+  color: white;
+}
+.image-item6::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 71, 255, 0.3);
+}
+
+/* Training related styles ends here */
+
 /* BMI section related style start */
 
 .bmi-top {

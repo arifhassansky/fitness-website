@@ -36,8 +36,29 @@
   .package-card-cotainer {
     grid-template-columns: repeat(1, 1fr);
   }
-  .list-title {
-    margin-top: 30px;
+  .training-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .image-item1 h5 {
+    top: 87px;
+    left: 27px;
+  }
+  .image-item3 h5 {
+    top: 66px;
+    left: 27px;
+  }
+  .image-item4 h5 {
+    top: 66px;
+    left: 23px;
+  }
+  .image-item5 h5 {
+    top: 87px;
+    left: 27px;
+  }
+  .image-item6 h5 {
+    top: 89px;
+    left: 20px;
   }
   .copyright {
     text-align: left;
