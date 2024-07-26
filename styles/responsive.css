@@ -32,7 +32,8 @@
     font-size: 54px;
   }
   .team-images,
-  .habit-items {
+  .habit-items,
+  .package-card-cotainer {
     grid-template-columns: repeat(1, 1fr);
   }
   .list-title {

@@ -234,6 +234,67 @@ header {
 }
 /* Run section related styles end */
 
+/* Package related styles start here */
+
+.package {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.package-card-cotainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.package-card {
+  border: 1px solid #dddddd84;
+  border-radius: 8px;
+}
+
+.package-card img {
+  max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.package-card hr {
+  margin-top: 30px;
+}
+.package-content {
+  margin-left: 15px;
+}
+.package-top-title h1 {
+  text-align: left;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+.package-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.package-subtitle {
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.package-list li {
+  list-style: circle;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.card-bottom-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.card-year {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* Package related styles end here */
+
 /* BMI section related style start */
 
 .bmi-top {
