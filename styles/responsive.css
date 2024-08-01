@@ -11,6 +11,9 @@
   .hamburger {
     display: block;
   }
+  .banner {
+    padding-left: 0px;
+  }
   .banner-btn-container {
     display: flex;
   }
