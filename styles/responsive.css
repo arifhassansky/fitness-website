@@ -40,6 +40,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .list-title {
+    margin-top: 25px;
+  }
+  .team-images {
+    padding-left: 30px;
+  }
   .image-item1 h5 {
     top: 87px;
     left: 27px;
