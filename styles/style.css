@@ -13,6 +13,17 @@ body {
   background-color: rgba(0, 0, 0, 0.971);
   color: white;
 }
+header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+.header-container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
 .primary-color {
   color: #e6533c;
 }
@@ -25,17 +36,13 @@ body {
   border: none;
   cursor: pointer;
 }
-header {
-  max-width: 1060px;
-  margin: 0 auto;
-}
 
 /* Navbar related style start here */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 58px;
+  padding-top: 58px;
 }
 .brand-name {
   font-weight: 800;
@@ -85,13 +92,13 @@ header {
 .shape {
   font-family: "Playwrite CU", cursive;
 }
-.healthy-content,
 .banner-image {
   position: relative;
-  max-width: 48%;
+  text-align: center;
 }
 .healthy-title {
   font-size: 78px;
+  line-height: 120%;
   font-weight: 900;
 }
 .healthy-subtitle {
@@ -210,7 +217,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 54px;
+  padding: 40px;
 }
 .run-title {
   font-size: 3rem;
@@ -225,10 +232,10 @@ header {
 }
 .run-content,
 .run-image {
-  max-width: 48%;
+  width: 48%;
 }
 .run-image img {
-  max-width: 366px;
+  width: 100%;
   max-height: 312px;
   border-radius: 18px;
   object-fit: cover;
@@ -487,7 +494,7 @@ header {
   font-size: 1.75rem;
   font-weight: 900;
 }
-.bmi-wrapper-main {
+.bmi {
   background: rgb(34, 34, 34);
 }
 .bmi-wrapper {
@@ -530,7 +537,10 @@ td {
 
 .bmi-calculate input,
 select {
-  padding: 12px 68px 12px 20px;
+  /* padding: 12px 68px 12px 20px; */
+  width: 300px;
+  height: 48px;
+  padding-left: 20px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.6);
@@ -539,12 +549,12 @@ select {
   margin-bottom: 12px;
   outline: none;
 }
-.gender select {
+/* .gender select {
   padding: 12px 164px 12px 20px;
-}
+} */
 .bmi-chart,
 .bmi-calculate {
-  max-width: 50%;
+  width: 50%;
   margin-top: 52px;
 }
 .bmi-activity {
@@ -552,7 +562,7 @@ select {
   margin-bottom: 10px;
 }
 .bmi-activity > select {
-  min-width: 100%;
+  width: 613px;
 }
 
 .calculate-btn {
@@ -593,7 +603,7 @@ select {
   position: relative;
 }
 .team-image {
-  width: 326px;
+  max-width: 326px;
   height: 272px;
 }
 .team-image img {

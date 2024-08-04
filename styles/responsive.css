@@ -82,7 +82,7 @@
   .banner-image,
   .bmi-chart,
   .bmi-calculate {
-    max-width: 100%;
+    width: 100%;
   }
   .bmi-chart,
   .bmi-calculate {
@@ -93,13 +93,10 @@
   }
   .bmi-calculate input,
   select {
-    padding: 12px 0px 12px 7px;
+    width: 175px;
   }
   .bmi-activity > select {
-    min-width: 97%;
-  }
-  .bmi-activity > select {
-    min-width: 97%;
+    width: 363px;
   }
   .gender select {
     padding: 12px 91px 12px 13px;
@@ -110,5 +107,79 @@
   }
   .run-content {
     padding: 15px;
+  }
+}
+
+/* Responsive design for medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  section,
+  header,
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .healthy-container {
+    flex-direction: column;
+  }
+  .healthy-content,
+  .banner-image {
+    width: 100%;
+  }
+  .menu-item {
+    padding: 5px 5px;
+  }
+  .home-menu {
+    padding: 5px 18px;
+  }
+  .training-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .image-item1 h5 {
+    top: 117px;
+    left: 40px;
+  }
+  .image-item3 h5,
+  .image-item4 h5,
+  .image-item5 h5,
+  .image-item4 h5,
+  .image-item6 h5 {
+    top: 117px;
+    left: 50px;
+  }
+  .bmi-top {
+    text-align: left;
+  }
+  .bmi-top-description {
+    margin-left: 0px;
+  }
+  .banner-container {
+    top: 360px;
+    left: 128px;
+  }
+  .banner-box-2 {
+    position: absolute;
+    top: -60px;
+    left: 125px;
+  }
+  .habit-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bmi-data-container {
+    flex-direction: column;
+  }
+  .bmi-chart,
+  .bmi-calculate {
+    width: 100%;
+  }
+  .team-images {
+    grid-template-columns: repeat();
+  }
+  .bmi-calculate input,
+  select {
+    width: 349px;
+  }
+  .bmi-activity > select {
+    width: 712px;
   }
 }
