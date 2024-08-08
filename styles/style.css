@@ -100,7 +100,7 @@ header {
   text-align: center;
 }
 .healthy-title {
-  font-size: 78px;
+  font-size: 4.87rem;
   line-height: 114%;
   font-weight: 900;
 }
@@ -145,7 +145,7 @@ header {
   padding: 20px 23px;
 }
 .banner-box-subtitle {
-  font-size: 13px;
+  font-size: 0.8rem;
   color: rgba(239, 237, 232, 0.65);
 }
 .banner-container {
@@ -285,7 +285,7 @@ header {
 .package-top-title h1 {
   text-align: left;
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .package-title {
   margin-top: 20px;
@@ -326,7 +326,7 @@ header {
   margin-bottom: 150px;
 }
 .training-top-title {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 14px;
 }
@@ -482,7 +482,7 @@ header {
   text-align: center;
 }
 .bmi-top-title {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 14px;
 }
@@ -523,7 +523,7 @@ td {
   justify-content: space-between;
 }
 .bmi-calculate-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 900;
 }
 .bmi-calculate-description {
@@ -688,10 +688,7 @@ footer {
 .copyright {
   text-align: center;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-bottom: 35px;
 }
-
 /* Footer related style end here */
-
-/* Responsive Related Styles Here */
