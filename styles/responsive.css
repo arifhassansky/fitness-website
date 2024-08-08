@@ -120,6 +120,9 @@
   .run-content {
     padding: 15px;
   }
+  .footer-description {
+    font-size: 0.87rem;
+  }
 }
 
 /* Responsive design for medium devices */
