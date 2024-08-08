@@ -95,8 +95,12 @@
   .bmi-calculate {
     padding-left: 20px;
   }
+  .bmi-top-title {
+    font-size: 34px;
+    text-align: left;
+  }
   .bmi-top-description {
-    margin-left: 17px;
+    margin-left: 0px;
     margin-bottom: -60px;
   }
   .bmi-calculate input,
