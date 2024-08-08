@@ -35,6 +35,9 @@
   .healthy-title {
     font-size: 40px;
   }
+  .shape {
+    font-size: 5rem;
+  }
   .healthy-subtitle {
     max-width: 270px;
   }
