@@ -23,7 +23,7 @@
   }
   .banner-container-2 {
     top: 45px;
-    left: 200px;
+    left: 195px;
   }
   .footer-container,
   .run-container,
@@ -108,10 +108,10 @@
   }
   .bmi-calculate input,
   select {
-    width: 175px;
+    width: 170px;
   }
   .bmi-activity > select {
-    width: 363px;
+    width: 353px;
   }
   .gender select {
     padding: 12px 91px 12px 13px;
