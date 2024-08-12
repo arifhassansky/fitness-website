@@ -126,6 +126,12 @@
   .footer-description {
     font-size: 0.87rem;
   }
+  .list-items h2 {
+    margin-top: 40px;
+  }
+  .hr-line {
+    margin-top: 35px;
+  }
 }
 
 /* Responsive design for medium devices */
